@@ -3,7 +3,7 @@ import { RSSOptions, RssPlugin } from "vitepress-plugin-rss"
 
 const RSS: RSSOptions = {
   title: "Vibe Coding - AI协同编程指南",
-  baseUrl: "https://zhongruan0522.github.io",
+  baseUrl: "https://vibercoding.zxiaoruan.cn",
   copyright: "zhongruan0522",
   author: { name: "zhongruan0522" },
   filter: (post) => !post.filepath.includes("README.md"),
@@ -11,7 +11,7 @@ const RSS: RSSOptions = {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: "/vibercoding/",
+  base: "/",
   lang: "zh-CN",
   lastUpdated: true,
   title: "Vibe Coding",
