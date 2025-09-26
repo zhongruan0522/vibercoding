@@ -1,5 +1,15 @@
 # Vibe Coding
 
+## VibeCoding Al 协同技巧
+
+**要思考，AI 来帮你的忙，而非帮你思考背锅**
+
+**要聚焦，描述现象目标，而非提供解决方案**
+
+**要提效，截图语音粘贴，而非一行一行打字**
+
+**要偷懒，提供报错信息，而非描述报错情况**
+
 ## 官方文档合集
 
 1. [Claude Code 概述 - Anthropic](https://docs.anthropic.com/zh-CN/docs/claude-code/overview)
