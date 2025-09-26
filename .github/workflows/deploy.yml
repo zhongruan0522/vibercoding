@@ -23,6 +23,20 @@ jobs:
 
       - name: Setup Node.js
         uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Cache VitePress build
+        uses: actions/cache@v4
+        with:
+          path: |
+            .vitepress/cache
+            .vitepress/dist
+          key: ${{ runner.os }}-vitepress-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.md', '**/*.vue', '.vitepress/**/*') }}
+          restore-keys: |
+            ${{ runner.os }}-vitepress-${{ hashFiles('**/pnpm-lock.yaml') }}-
+            ${{ runner.os }}-vitepress-
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
