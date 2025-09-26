@@ -10,6 +10,8 @@
 
 **要偷懒，提供报错信息，而非描述报错情况**
 
+源于：[点击访问原帖](https://linux.do/t/topic/990002)
+
 ## 官方文档合集
 
 1. [Claude Code 概述 - Anthropic](https://docs.anthropic.com/zh-CN/docs/claude-code/overview)
