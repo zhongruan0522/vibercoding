@@ -1,0 +1,28 @@
+{
+  "name": "vibercoding",
+  "version": "1.0.0",
+  "description": "AI协同编程技巧与工具使用指南",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve",
+    "preview": "vitepress preview"
+  },
+  "keywords": ["AI", "编程", "协同", "Vibe Coding", "开发工具", "VitePress"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vitepress-plugin-rss": "0.3.1"
+  },
+  "packageManager": "pnpm@10.15.1",
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "@algolia/client-search"
+      ]
+    }
+  }
+}
