@@ -647,7 +647,8 @@ qa：质量保证和测试
 
 #### 安装和使用方式
 ##### 安装步骤
-``` 1. 克隆项目
+```
+1. 克隆项目
 git clone https://github.com/NomenAK/SuperClaude.git
 cd SuperClaude
 
@@ -700,7 +701,8 @@ ls -la ~/.claude/commands/  # 应该显示17个文件
 用途： 开发特定功能，采用测试驱动开发方法
 
 #### 🚀必要的MCP Server添加命令
-``` 添加context7
+```
+添加context7
 claude mcp add --transport http context7 https://mcp.context7.com/mcp
 
 # 添加sequential-thinking
@@ -787,7 +789,8 @@ claude mcp add magic npx @21st-dev/magic@latest --env API_KEY=你的api key
 
 #### 📈 复杂工作流示例
 ##### 完整开发流程
-``` 1. 项目规划
+```
+1. 项目规划
 /design --api --ddd --plan --persona-architect
 
 # 2. 前端开发
@@ -977,7 +980,8 @@ cd zen-mcp-server
 
 ###### 3. 配置API密钥
 
-``` 编辑.env文件添加API密钥
+```
+编辑.env文件添加API密钥
 nano .env
 
 # 文件内容： GEMINI_API_KEY=your-gemini-api-key-here
@@ -3805,7 +3809,7 @@ VS Code 的插件镜像网站： https://vsc-extension.dreamsoul.cn/
 
 通过启动参数指定模型进入交互模式：
 
-```undefined
+```bash
 codex -m gpt-5-codex
 ```
 

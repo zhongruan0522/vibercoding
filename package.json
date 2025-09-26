@@ -10,7 +10,14 @@
     "serve": "vitepress serve",
     "preview": "vitepress preview"
   },
-  "keywords": ["AI", "编程", "协同", "Vibe Coding", "开发工具", "VitePress"],
+  "keywords": [
+    "AI",
+    "编程",
+    "协同",
+    "Vibe Coding",
+    "开发工具",
+    "VitePress"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
@@ -24,5 +31,8 @@
         "@algolia/client-search"
       ]
     }
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
   }
 }

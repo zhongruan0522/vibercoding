@@ -1,24 +1,19 @@
 import { defineConfig } from 'vitepress'
-import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
+// import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
 
-const RSS: RSSOptions = {
-  title: "Vibe Coding - AI协同编程指南",
-  baseUrl: "https://zhongruan0522.github.io",
-  copyright: "zhongruan0522",
-  author: { name: "zhongruan0522" },
-  filter: (post) => !post.filepath.includes("README.md"),
-};
+// const RSS: RSSOptions = {
+//   title: "Vibe Coding - AI协同编程指南",
+//   baseUrl: "https://zhongruan0522.github.io",
+//   copyright: "zhongruan0522",
+//   author: { name: "zhongruan0522" },
+//   filter: (post) => !post.filepath.includes("README.md") && !post.filepath.includes("vibe-coding.md"),
+// };
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "./",
   base: "/vibercoding/",
   lang: "zh-CN",
   lastUpdated: true,
-  srcExclude: ["node_modules/**/*"],
-  rewrites: {
-    "README.md": "index.md",
-  },
   title: "Vibe Coding",
   description: "AI协同编程技巧与工具使用指南",
   themeConfig: {
@@ -26,14 +21,15 @@ export default defineConfig({
     siteTitle: "Vibe Coding",
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Vibe Coding', link: '/Vibe Coding' },
+      { text: 'Vibe Coding', link: '/vibe-coding' },
+      { text: '讨论区', link: 'https://linux.do/t/topic/990446' },
     ],
 
     sidebar: [
       {
         text: 'AI协同编程',
         items: [
-          { text: 'Vibe Coding指南', link: '/Vibe Coding' },
+          { text: 'Vibe Coding指南', link: '/vibe-coding' },
         ]
       }
     ],
@@ -103,8 +99,5 @@ export default defineConfig({
     darkModeSwitchLabel: "主题",
     lightModeSwitchTitle: "切换到浅色模式",
     darkModeSwitchTitle: "切换到深色模式",
-  },
-  vite: {
-    plugins: [RssPlugin(RSS)],
   },
 })

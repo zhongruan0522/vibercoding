@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /Vibe Coding
+      link: /vibe-coding
 
 features:
   - title: AI协同技巧
