@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress'
-// import { RSSOptions, RssPlugin } from "vitepress-plugin-rss";
+import { RSSOptions, RssPlugin } from "vitepress-plugin-rss"
 
-// const RSS: RSSOptions = {
-//   title: "Vibe Coding - AI协同编程指南",
-//   baseUrl: "https://zhongruan0522.github.io",
-//   copyright: "zhongruan0522",
-//   author: { name: "zhongruan0522" },
-//   filter: (post) => !post.filepath.includes("README.md") && !post.filepath.includes("vibe-coding.md"),
-// };
+const RSS: RSSOptions = {
+  title: "Vibe Coding - AI协同编程指南",
+  baseUrl: "https://zhongruan0522.github.io",
+  copyright: "zhongruan0522",
+  author: { name: "zhongruan0522" },
+  filter: (post) => !post.filepath.includes("README.md"),
+}
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -99,5 +99,8 @@ export default defineConfig({
     darkModeSwitchLabel: "主题",
     lightModeSwitchTitle: "切换到浅色模式",
     darkModeSwitchTitle: "切换到深色模式",
+  },
+  vite: {
+    plugins: [RssPlugin(RSS)],
   },
 })
