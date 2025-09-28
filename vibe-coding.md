@@ -257,13 +257,13 @@ ccusage blocks --live
 
 #### 配置文件
 
-文件目录`~/codex/config.toml`
+文件目录`~/.codex/config.toml`
 
 ~~~json
 "OPENAI_API_KEY": "你的第三方api_key"
 ~~~
 
-文件目录`~/codex/config.toml`
+文件目录`~/.codex/config.toml`
 
  ```toml
  model = "gpt-5-codex" # Codex 0.36.0 支持
