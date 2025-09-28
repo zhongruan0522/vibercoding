@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
 import { RSSOptions, RssPlugin } from "vitepress-plugin-rss"
+import vitepressProtectPlugin from "vitepress-protect-plugin"
+import { inBrowser } from 'vitepress'
+import busuanzi from 'busuanzi.pure.js'
 
 const RSS: RSSOptions = {
   title: "Vibe Coding - AI协同编程指南",
@@ -101,6 +104,19 @@ export default defineConfig({
     darkModeSwitchTitle: "切换到深色模式",
   },
   vite: {
-    plugins: [RssPlugin(RSS)],
+    plugins: [
+      RssPlugin(RSS),
+      vitepressProtectPlugin({
+        disableF12: true, // 禁用F12开发者模式
+        disableCopy: true, // 禁用文本复制
+        disableSelect: true, // 禁用文本选择
+      }),
+    ],
+  },
+  // 配置不蒜子统计
+  async buildEnd() {
+    if (inBrowser) {
+      busuanzi.fetch()
+    }
   },
 })

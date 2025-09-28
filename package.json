@@ -21,8 +21,10 @@
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
+    "busuanzi.pure.js": "^1.0.3",
     "vitepress": "1.6.4",
-    "vitepress-plugin-rss": "0.3.1"
+    "vitepress-plugin-rss": "0.3.1",
+    "vitepress-protect-plugin": "^1.0.0"
   },
   "packageManager": "pnpm@10.15.1",
   "pnpm": {
