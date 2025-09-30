@@ -3954,6 +3954,8 @@ claude mcp add spec-workflow-mcp -s user -- npx -y spec-workflow-mcp@latest
 
 ### 私域知识工程实战：如何让 AI 一次性写出高质量代码？
 
+[点击访问原帖](https://linux.do/t/topic/991134)
+
 > AI编程的瓶颈不在于模型不够聪明，而在于信息不对称。
 >
 > 通过简单、快速构建私域知识工程体系 ，让AI从 “临时工” 变成真正懂业务的 “老司机” 。
