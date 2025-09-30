@@ -22,7 +22,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Vibe Coding', link: '/vibe-coding' },
-      { text: '普通AI使用', link: '/AI' },
       { text: '讨论区', link: 'https://linux.do/t/topic/990446' },
     ],
 
@@ -31,11 +30,6 @@ export default defineConfig({
         text: 'AI协同编程',
         items: [
           { text: 'Vibe Coding指南', link: '/vibe-coding' },
-        ]
-      },{
-        text: '日常AI使用',
-        items: [
-          { text: 'AI指南', link: '/AI' },
         ]
       }
     ],
