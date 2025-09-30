@@ -223,7 +223,7 @@ Windows下安装Ollama很简单，双击运行安装文件即可，此处不赘�
 
 ## AI生成PPT
 
-[点击访问GitHub](https://github.com/GeekyWizKid/prompt-lesson)，[点击访问原帖](4https://linux.do/t/topic/767490)
+[点击访问GitHub](https://github.com/GeekyWizKid/prompt-lesson)，[点击访问原帖](https://linux.do/t/topic/767490)
 
 ### 本地运行
 
