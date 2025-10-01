@@ -690,22 +690,22 @@ http://localhost:24282/dashboard/index.html
        2. xx套餐总数
        3. 年销售量
        4. xx用户数量
-      
+         
        ....(此处写其他接口)
-      
+         
        API文件格式要求：
        1. markdown格式
        2. 开头包含以下内容
        ## 概述
        [此处写项目简介] 
        ## 基础信息
-      
+         
        - **Base URL**: `/v1`
        - **认证方式**: JWT Token
        - **响应格式**: JSON
-      
+         
        ## 通用响应格式
-      
+         
        ‍```json
        {
          "code": 0,
@@ -732,7 +732,7 @@ http://localhost:24282/dashboard/index.html
        2. 如果存在且密码不为空，则返回用户已注册
        3. 如果存在且密码为空，则注册成功
        4. 注意，该注册和一般的注册不同，该注册时表中已经存在用户数据，操作相当于是绑定密码，所以是update，而非insert
-      
+         
        (接口内容...)
        实现逻辑：
        1. 查询用户表返回相应信息
@@ -790,6 +790,89 @@ http://localhost:24282/dashboard/index.html
 5. 稍微复杂点的功能可以先讨论用默认模式几轮，默认模式就是不带plan和edit的模式，你直接问问题，他会结合项目回答，但不会盲目的执行
 6. 提示词什么的其实也是需要慢慢摸索和磨合的，永久了其实就知道该怎么问，ai的能力边界在哪就清楚了
 7. 另外，我没有使用任何mcp和subagent，所以测试也算是cc+glm的下限了
+
+### **教程：让 WSL 成功使用 Codex**
+
+[点击访问原帖](https://linux.do/t/topic/1002178)
+
+在 WSL（Windows Subsystem for Linux）环境下使用 Codex 时，常见的两个问题是：
+
+1. WSL 网络请求无法直连外网 → 需要通过代理（如 v2ray）。
+2. WSL 不能唤起浏览器完成 Codex 登录认证 → 需要借助 Windows 完成登录，再将认证文件复制到 WSL。
+
+下面是完整的解决步骤：
+
+#### **1. 在 WSL 中设置网络代理**
+
+Codex 的请求需要能访问外网。如果你在 Windows 上运行了 v2ray（假设监听端口为 10809），则需要在 WSL 中让请求走这个代理。
+
+##### **（1）确认 Windows 主机地址**
+
+在 WSL 中运行：
+
+```bash
+cat /etc/resolv.conf
+```
+
+通常能看到类似：
+
+```undefined
+nameserver 172.28.192.1
+```
+
+这里的 `172.28.192.1` 就是 Windows 宿主机在 WSL 网络中的地址。 （每次重启 WSL 可能会变，需重新查看。）
+
+##### **（2）设置代理环境变量**
+
+在 WSL 的`~/.bashrc` 或`~/.zshrc`中加入：
+
+```bash
+export http_proxy="http://172.28.192.1:10809"
+export https_proxy="http://172.28.192.1:10809"
+export all_proxy="socks5://172.28.192.1:10808"
+```
+
+然后刷新配置：
+
+```bash
+source ~/.bashrc
+注：10809 是 http 代理端口，10808 是 socks 代理端口，需与 Windows v2ray 的实际端口保持一致。
+```
+
+##### **（3）测试代理是否生效**
+
+```bash
+curl -I https://www.google.com
+```
+
+#### **2. 完成 Codex 登录认证**
+
+Codex CLI 在首次运行时会尝试唤起浏览器进行 OAuth 登录。但 WSL 无法直接打开 Windows 浏览器，所以需要在 Windows 端完成登录。
+
+##### **（1）在 Windows 中完成 Codex 登录**
+
+在 Windows Terminal/PowerShell/CMD 中运行 `codex` ，然后选择通过登录的方式使用。
+
+登录成功后，会在 Windows 用户目录下生成认证文件：
+
+```bash
+C:\Users\<你的用户名>\.codex\auth.json
+```
+
+##### **（2）复制认证文件到 WSL**
+
+进入 Windows 的 .codex 目录，找到 auth.json，然后复制到 WSL。
+
+```bash
+cp /mnt/c/Users/<你的用户名>/.codex/auth.json ~/.codex/
+```
+
+##### **(3) 使用`codex`**
+
+此时应该就可以使用codex了 如果有问题，主要可能是这两方面：
+
+1. 网络问题，是否真的走了代理
+2. 登录验证的文件是否有效，一段时间后可能会过期，再重复登录操作一次即可
 
 ### SuperClaude × Claude Code：MCP驱动的AI编程爆改指南
 
