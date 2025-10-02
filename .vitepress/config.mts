@@ -37,9 +37,11 @@ export default defineConfig({
           { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
         ]
       },{
-        text: '日常AI使用',
+        text: 'AI使用',
         items: [
-          { text: 'AI指南', link: '/AI' },
+          { text: 'AI指南', link: '/AI/AI' },
+          { text: '系统提示词', link: '/AI/提示词' },
+
         ]
       }
     ],
@@ -101,7 +103,7 @@ export default defineConfig({
     },
 
     outline: {
-      level: [2, 3, 4, 5],
+      level: [2, 3],
       label: "目录",
     },
 
