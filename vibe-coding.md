@@ -4074,7 +4074,7 @@ claude mcp add spec-workflow-mcp -s user -- npx -y spec-workflow-mcp@latest
    - `get-library-docs` - 获取最新官方文档
 ~~~
 
-### 别忘了！claude code也是agent框架，我改造claude code搞一个数据分析智能体AI-试试看：让数据分析变得像聊天一样简单
+### 别忘了！claude code也是agent框架：让数据分析变得像聊天一样简单
 
 [点击访问原帖](https://linux.do/t/topic/998433)，[点击访问GitHub](https://github.com/liangdabiao/claude-data-analysis)
 
@@ -4933,6 +4933,26 @@ Manus中的一个典型任务平均需要大约50次工具调用。这是一个�
 [Console]::InputEncoding = [System.Text.Encoding]::UTF8
 chcp 65001 | Out-Null
 ~~~
+
+### Claude Code for VS Code
+
+#### 1. 侧边栏不显示
+
+摁住`cmd+shift+p` 输入claude搜索，选择 `open in side bar`
+
+![image-20250930215318738](./assets/image-20250930215318738.png)
+
+#### 无法使用第三方API
+
+编辑（或者新增）`~/.claude/config.json`
+
+~~~json
+{
+  "primaryApiKey": "default"
+}
+~~~
+
+**修改配置后重启！！！**
 
 ### Codex
 
