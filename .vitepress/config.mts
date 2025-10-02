@@ -21,7 +21,7 @@ export default defineConfig({
     siteTitle: "Vibe Coding",
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Vibe Coding', link: '/vibe-coding' },
+      { text: 'Vibe Coding', link: '/vibe-coding/欢迎' },
       { text: '普通AI使用', link: '/AI' },
       { text: '讨论区', link: 'https://linux.do/t/topic/990446' },
     ],
@@ -30,7 +30,11 @@ export default defineConfig({
       {
         text: 'AI协同编程',
         items: [
-          { text: 'Vibe Coding指南', link: '/vibe-coding' },
+          { text: '欢迎', link: '/vibe-coding/欢迎' },
+          { text: '安装教程', link: '/vibe-coding/安装' },
+          { text: '基础配置', link: '/vibe-coding/基础配置' },
+          { text: '优秀项目和文章', link: '/vibe-coding/优秀项目和文章' },
+          { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
         ]
       },{
         text: '日常AI使用',
