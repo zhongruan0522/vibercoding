@@ -624,6 +624,55 @@ http://localhost:24282/dashboard/index.html
 
 ⚠️ Codex 有时会错误地显示工具执行失败，即使实际执行成功。这是已知问题，不影响使用。
 
+### 7. Chrome-Devtools
+
+~~~cmd
+
+# Claude Code
+claude mcp add chrome-devtools npx chrome-devtools-mcp@latest
+
+# Codex
+codex mcp add chrome-devtools -- npx chrome-devtools-mcp@latest
+
+# Gemini CLI
+
+# 编辑Gemini设置文件
+   nano ~/.gemini/settings.json
+   # 或者使用你喜欢的编辑器
+   code ~/.gemini/settings.json
+
+# 添加Chrome DevTools MCP配置：在 settings.json 文件中添加以下配置：
+
+{
+     "mcpServers": {
+       "chrome-devtools": {
+         "command": "npx",
+         "args": ["chrome-devtools-mcp@latest"]
+       }
+     }
+   }
+   
+   
+ # 带参数的高级配置
+ 
+ {
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest",
+        "--channel=canary",
+        "--headless=true",
+        "--isolated=true"
+      ]
+    }
+  }
+}
+
+#验证配置，输入：Check the performance of https://developers.chrome.com
+
+~~~
+
 ## 优秀文章&项目
 
 ### 【实事求是】CC+GLM4.5长期体验和方法分享
