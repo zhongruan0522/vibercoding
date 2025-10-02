@@ -39,7 +39,7 @@ export default defineConfig({
       },{
         text: 'AI使用',
         items: [
-          { text: 'AI指南', link: '/AI/AI' },
+          { text: 'AI使用', link: '/AI/AI' },
           { text: '系统提示词', link: '/AI/提示词' },
 
         ]
