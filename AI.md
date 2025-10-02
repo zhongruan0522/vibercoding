@@ -11,15 +11,15 @@
 ##### 下载Docker
 
 前往[Docker](https://docs.docker.com/desktop/install/windows-install/)下载安装包
-![在这里插入图片描述](assets/fdff7ffb20d5f04354bff274bfc66769.png)
+![在这里插入图片描述](./vibe-coding/assets/fdff7ffb20d5f04354bff274bfc66769.png)
 
 ##### 启动微软Hyper-V与WSL
 
 - 打开“控制面板->程序->启用或关闭Windows功能”
-  ![在这里插入图片描述](assets/4d18289fbd63df900013146962d8de43.png)
-  ![在这里插入图片描述](assets/7bfce196dd6a4e1ec179ffdf9f6c4c6d.png)
+  ![在这里插入图片描述](./vibe-coding/assets/4d18289fbd63df900013146962d8de43.png)
+  ![在这里插入图片描述](./vibe-coding/assets/7bfce196dd6a4e1ec179ffdf9f6c4c6d.png)
 - 勾选Hyper-V选项
-  ![](assets/image-20250204150552747.png)
+  ![](./vibe-coding/assets/image-20250204150552747.png)
 - 重启电脑后安装成功
 
 > 若没有Hyper-V选项，可以使用如下命令安装：
@@ -40,20 +40,20 @@ Pause
 
 ##### 安装Docker
 
-![在这里插入图片描述](assets/5e1e186e314737a2ea45abcebd16b7c8.png)
-![在这里插入图片描述](assets/a8bd4c6c5a727d79a01c00cdad538c13.png)
-![在这里插入图片描述](assets/16ac1edcf648608e76e960010c0621b8.png)
+![在这里插入图片描述](./vibe-coding/assets/5e1e186e314737a2ea45abcebd16b7c8.png)
+![在这里插入图片描述](./vibe-coding/assets/a8bd4c6c5a727d79a01c00cdad538c13.png)
+![在这里插入图片描述](./vibe-coding/assets/16ac1edcf648608e76e960010c0621b8.png)
 
 打开之后是这个样子，一般不需要使用，用命令行操作即可。
-![在这里插入图片描述](assets/a44f890b38c640bd707e979618365c35.png)
-![在这里插入图片描述](assets/f99b59e4a58f4c503af41adb5bb6fa9f.png)
+![在这里插入图片描述](./vibe-coding/assets/a44f890b38c640bd707e979618365c35.png)
+![在这里插入图片描述](./vibe-coding/assets/f99b59e4a58f4c503af41adb5bb6fa9f.png)
 
 在CMD中输入docker -v验证安装
-![在这里插入图片描述](assets/5229ec64d46d9c1b859bbd29d4f9fb2a.png)
+![在这里插入图片描述](./vibe-coding/assets/5229ec64d46d9c1b859bbd29d4f9fb2a.png)
 
 ##### 切换国内镜像源
 
-![在这里插入图片描述](assets/7afdae40074ad7a4e5f7c5dd77f96a87.png)
+![在这里插入图片描述](./vibe-coding/assets/7afdae40074ad7a4e5f7c5dd77f96a87.png)
 
 ```json
 {
@@ -78,8 +78,8 @@ Pause
 ##### 安装OpenWebUI
 
 开源[GitHub](https://github.com/open-webui/open-webui)，在命令行输入```docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main```
-!(assets/2c7d4a75da1a4ed9ae1f2ed4da42ca65.png)
-![在这里插入图片描述](assets/8d71a18328815a9167009d97a78f2c9f.png)
+!(./vibe-coding/assets/2c7d4a75da1a4ed9ae1f2ed4da42ca65.png)
+![在这里插入图片描述](./vibe-coding/assets/8d71a18328815a9167009d97a78f2c9f.png)
 
 > [!NOTE]
 >
@@ -88,7 +88,7 @@ Pause
 ##### web访问llama3
 
 注册登录后可以看到直接可以选择之前部署好的llama3:8b模型，通过对话测试下它的能力。
-![在这里插入图片描述](assets/7b0c2a32259e161704d7fb814611a6b3.png)
+![在这里插入图片描述](./vibe-coding/assets/7b0c2a32259e161704d7fb814611a6b3.png)
 
 > [!NOTE]
 >
@@ -112,14 +112,14 @@ Pause
 ##### 下载Ollama
 
 登录[Ollama官网](https://ollama.com/)下载Ollama安装包，推荐前往[GitHub](https://github.com/ollama/ollama?tab=readme-ov-file)用[GitHub文件加速](https://github.akams.cn/)
-![在这里插入图片描述](assets/1b6b284096f1709eea976f0b4c1a6fc9.png)
-![在这里插入图片描述](assets/281ff839ade35d7a14cdd8d6c00cb2d0.png)
+![在这里插入图片描述](./vibe-coding/assets/1b6b284096f1709eea976f0b4c1a6fc9.png)
+![在这里插入图片描述](./vibe-coding/assets/281ff839ade35d7a14cdd8d6c00cb2d0.png)
 
 ##### 安装Ollama
 
 Windows下安装Ollama很简单，双击运行安装文件即可，此处不赘述。
 打开终端，输入`ollama`，出现下图所示代表安装成功
-![在这里插入图片描述](assets/de8234842f283d4c13ba01b6f8f2bddb.png)
+![在这里插入图片描述](./vibe-coding/assets/de8234842f283d4c13ba01b6f8f2bddb.png)
 
 > [!NOTE]
 >
@@ -131,14 +131,14 @@ Windows下安装Ollama很简单，双击运行安装文件即可，此处不赘�
 ##### 配置Ollama的模型路径
 
 由于Ollama的模型默认会在C盘用户下的.ollama/models文件夹中，可以配置环境变量OLLAMA_MODELS，设置为指定的路径：
-![在这里插入图片描述](assets/5bcc81cd4bb3d2351d7e0549e8f0f185.png)
+![在这里插入图片描述](./vibe-coding/assets/5bcc81cd4bb3d2351d7e0549e8f0f185.png)
 
 ##### 下载模型
 
 以llama3为例子，llama3目前主要有8B和70B两个模型，分别代表80亿和700亿个训练参数。
-![在这里插入图片描述](assets/41dc270481bb1b959461e5c0beda9b21.png)
+![在这里插入图片描述](./vibe-coding/assets/41dc270481bb1b959461e5c0beda9b21.png)
 打开终端，输入命令：`ollama run llama3`默认安装8B模型，也可以使用`ollama run llama3:8b`来指定相应的模型，安装成功会有如下提示：
-![在这里插入图片描述](assets/8fa2866fef1b8b38795362e4d721490d.png)
+![在这里插入图片描述](./vibe-coding/assets/8fa2866fef1b8b38795362e4d721490d.png)
 
 > [!NOTE]
 >
@@ -149,7 +149,7 @@ Windows下安装Ollama很简单，双击运行安装文件即可，此处不赘�
 #### 补充
 ##### 1  离线部署
 ###### 1.1 将在线下载的docker images保存
-![在这里插入图片描述](assets/5cccca8cbff2116a7b5448cf4d61841e.png)
+![在这里插入图片描述](./vibe-coding/assets/5cccca8cbff2116a7b5448cf4d61841e.png)
 ###### 1.2 在离线的机器上装载该镜像
    `docker load -i open-webui.tar`
 ###### 1.3 使用3.2章节的命令启动容器即可
@@ -187,7 +187,7 @@ Windows下安装Ollama很简单，双击运行安装文件即可，此处不赘�
 
 前往[HF镜像站](https://hf-mirror.com/)或者[魔塔](https://www.modelscope.cn/)下载所需要的大模型
 
-![image-20250204152015106](assets/image-20250204152015106.png)
+![image-20250204152015106](./vibe-coding/assets/image-20250204152015106.png)
 
 ###### 4.2 新建对应的.mf文件
 
