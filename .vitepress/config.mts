@@ -15,7 +15,7 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   title: "Vibe Coding",
-  description: "AI协同编程技巧与工具使用指南",
+  description: "一体化综合性文档中心",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "Vibe Coding",

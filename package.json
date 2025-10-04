@@ -1,7 +1,7 @@
 {
   "name": "vibercoding",
   "version": "1.0.0",
-  "description": "AI协同编程技巧与工具使用指南",
+  "description": "一体化综合性文档",
   "private": true,
   "type": "module",
   "scripts": {
@@ -18,7 +18,7 @@
     "开发工具",
     "VitePress"
   ],
-  "author": "Your Name",
+  "author": "zhongruan",
   "license": "MIT",
   "devDependencies": {
     "busuanzi.pure.js": "^1.0.3",
