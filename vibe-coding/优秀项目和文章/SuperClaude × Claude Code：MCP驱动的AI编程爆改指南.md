@@ -1,3 +1,7 @@
+# Vibe Coding - 优秀文章&项目部分
+
+## 优秀文章&项目
+
 ### SuperClaude × Claude Code：MCP驱动的AI编程爆改指南
 
 [点击访问原帖](https://www.aivi.fyi/aiagents/introduce-SuperClaude)

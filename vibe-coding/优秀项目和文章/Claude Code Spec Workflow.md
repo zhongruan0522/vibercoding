@@ -1,3 +1,7 @@
+# Vibe Coding - 优秀文章&项目部分
+
+## 优秀文章&项目
+
 ### Claude Code Spec Workflow
 
 [点击前往GitHub](https://github.com/Pimzino/claude-code-spec-workflow) | [视频教程-AI超元域](https://www.bilibili.com/video/BV1Tte9zYEGY) | [点击前往AI超元域的博客](https://www.aivi.fyi/aiagents/introduce-Claude-Code-Spec-Workflow)

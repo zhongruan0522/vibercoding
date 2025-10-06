@@ -1,3 +1,7 @@
+# Vibe Coding - 优秀文章&项目部分
+
+## 优秀文章&项目
+
 ### Claude Code × Zen MCP：多AI协作编程革命
 
 [点击访问原帖](https://www.aivi.fyi/aiagents/introduce-Claude-Code+Zen-MCP),[点击访问GitHub](https://github.com/BeehiveInnovations/zen-mcp-server)

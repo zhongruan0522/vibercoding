@@ -1,3 +1,7 @@
+# Vibe Coding - 优秀文章&项目部分
+
+## 优秀文章&项目
+
 ### AI代理的上下文工程：构建Manus的经验教训
 
 [点击访问Manus](https://manus.im/zh-cn/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
