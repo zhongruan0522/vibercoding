@@ -37,16 +37,32 @@ export default defineConfig({
           { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
         ]
       },
-            {
+      {
         text: 'AI协同编程-优秀项目&&文章展示',
         items: [
-          { text: '欢迎', link: '/vibe-coding/欢迎' },
-          { text: '安装教程', link: '/vibe-coding/安装' },
-          { text: '基础配置', link: '/vibe-coding/基础配置' },
-          { text: '优秀项目和文章', link: '/vibe-coding/优秀项目和文章' },
-          { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
+          { text: '6A工作流  AI + Figma 产品设计自动化解决方案', link: '/vibe-coding/优秀项目和文章/6A工作流  AI + Figma 产品设计自动化解决方案.md' },
+          { text: 'AI代理的上下文工程：构建Manus的经验教训', link: '/vibe-coding/优秀项目和文章/AI代理的上下文工程：构建Manus的经验教训.md' },
+          { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
+          { text: 'Claude Code GLM-4.5系统提示词', link: '/vibe-coding/优秀项目和文章/CC-GLM-4.5系统提示词.md' },
+          { text: 'Claude Code 动态生成Agents', link: '/vibe-coding/优秀项目和文章/CC-动态生成Agents.md' },
+          { text: 'Claude Code 擅长调用子代理', link: '/vibe-coding/优秀项目和文章/CC-擅长调用子代理.md' },
+          { text: 'Claude Code Spec Workflow', link: '/vibe-coding/优秀项目和文章/Claude Code Spec Workflow.md' },
+          { text: 'Claude Code Sub-Agents：从手工作坊到自动化工厂', link: '/vibe-coding/优秀项目和文章/Claude Code Sub-Agents：从手工作坊到自动化工厂.md' },
+          { text: 'Claude Code × Zen MCP：多AI协作编程革命', link: '/vibe-coding/优秀项目和文章/Claude Code × Zen MCP：多AI协作编程革命.md' },
+          { text: 'Claude Code 调用 Codex：分工协作开发', link: '/vibe-coding/优秀项目和文章/Claude Code 调用 Codex：分工协作开发.md' },
+          { text: 'Codex全局AGENTS.MD指南', link: '/vibe-coding/优秀项目和文章/Codex全局AGENTS.MD指南.md' },
+          { text: 'Codex杂谈', link: '/vibe-coding/优秀项目和文章/Codex杂谈.md' },
+          { text: 'SuperClaude × Claude Code：MCP驱动的AI编程爆改指南', link: '/vibe-coding/优秀项目和文章/SuperClaude × Claude Code：MCP驱动的AI编程爆改指南.md' },
+          { text: '【实事求是】CC+GLM4.5长期体验和方法分享', link: '/vibe-coding/优秀项目和文章/【实事求是】CC+GLM4.5长期体验和方法分享.md' },
+          { text: '一次跑通！省钱又可靠的顾问式编码！', link: '/vibe-coding/优秀项目和文章/一次跑通！省钱又可靠的顾问式编码！.md' },
+          { text: '一键生成项目架构图', link: '/vibe-coding/优秀项目和文章/一键生成项目架构图.md' },
+          { text: '使用Claude Code Sub-Agent的最佳实践工作流', link: '/vibe-coding/优秀项目和文章/使用Claude Code Sub-Agent的最佳实践工作流.md' },
+          { text: '后端Codex AGENTS', link: '/vibe-coding/优秀项目和文章/后端Codex AGENTS.md' },
+          { text: '实验性：Claude Code + Codex 进行协作开发', link: '/vibe-coding/优秀项目和文章/实验性：Claude Code + Codex 进行协作开发.md' },
+          { text: '私域知识工程实战：如何让 AI 一次性写出高质量代码？', link: '/vibe-coding/优秀项目和文章/私域知识工程实战：如何让 AI 一次性写出高质量代码？.md' },
+          { text: '让 WSL 成功使用 Codex', link: '/vibe-coding/优秀项目和文章/让 WSL 成功使用 Codex.md' }
         ]
-      },{
+      }, {
         text: 'AI使用',
         items: [
           { text: 'AI基础应用', link: '/AI/AI' },
