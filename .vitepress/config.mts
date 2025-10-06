@@ -15,14 +15,13 @@ export default defineConfig({
   lang: "zh-CN",
   lastUpdated: true,
   title: "Vibe Coding",
-  description: "一体化综合性文档中心",
+  description: "探索AI与编程的完美结合，提升开发效率与创新能力",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: "Vibe Coding",
     nav: [
       { text: '首页', link: '/' },
       { text: 'Vibe Coding', link: '/vibe-coding/欢迎' },
-      { text: '普通AI使用', link: '/AI/AI' },
       { text: '讨论区', link: 'https://linux.do/t/topic/990446' },
     ],
 
@@ -61,15 +60,6 @@ export default defineConfig({
           { text: '实验性：Claude Code + Codex 进行协作开发', link: '/vibe-coding/优秀项目和文章/实验性：Claude Code + Codex 进行协作开发.md' },
           { text: '私域知识工程实战：如何让 AI 一次性写出高质量代码？', link: '/vibe-coding/优秀项目和文章/私域知识工程实战：如何让 AI 一次性写出高质量代码？.md' },
           { text: '让 WSL 成功使用 Codex', link: '/vibe-coding/优秀项目和文章/让 WSL 成功使用 Codex.md' }
-        ]
-      }, {
-        text: 'AI使用',
-        items: [
-          { text: 'AI基础应用', link: '/AI/AI' },
-          { text: '系统提示词', link: '/AI/提示词' },
-          { text: '福利', link: '/AI/福利' },
-          { text: '优秀文章', link: '/AI/优秀文章' },
-
         ]
       }
     ],
