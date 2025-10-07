@@ -43,6 +43,7 @@ export default defineConfig({
           { text: 'AI代理的上下文工程：构建Manus的经验教训', link: '/vibe-coding/优秀项目和文章/AI代理的上下文工程：构建Manus的经验教训.md' },
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
           { text: 'Claude Code GLM-4.5系统提示词', link: '/vibe-coding/优秀项目和文章/CC-GLM-4.5系统提示词.md' },
+          { text: 'Claude Code GLM-4.6系统提示词', link: '/vibe-coding/优秀项目和文章/CC-GLM-4.6系统提示词.md' },
           { text: 'Claude Code 动态生成Agents', link: '/vibe-coding/优秀项目和文章/CC-动态生成Agents.md' },
           { text: 'Claude Code 擅长调用子代理', link: '/vibe-coding/优秀项目和文章/CC-擅长调用子代理.md' },
           { text: 'Claude Code Spec Workflow', link: '/vibe-coding/优秀项目和文章/Claude Code Spec Workflow.md' },
