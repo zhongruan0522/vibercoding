@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { RSSOptions, RssPlugin } from "vitepress-plugin-rss"
+import mdItObsidianCallouts from 'markdown-it-obsidian-callouts'
 
 const RSS: RSSOptions = {
   title: "Vibe Coding - AI协同编程指南",
@@ -134,5 +135,11 @@ export default defineConfig({
   },
   vite: {
     plugins: [RssPlugin(RSS)],
+  },
+  // 引入obsidian的样式
+  markdown: {
+    config: (md) => {
+      md.use(mdItObsidianCallouts)
+    }
   },
 })
