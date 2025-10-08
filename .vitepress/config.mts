@@ -40,6 +40,8 @@ export default defineConfig({
       {
         text: 'AI协同编程-优秀项目&&文章展示',
         items: [
+          { text: 'vibe coding(氛围编程)总是产出一坨垃圾? 你可能需要些技巧', link: '/vibe-coding/优秀项目和文章/vibe coding(氛围编程)总是产出一坨垃圾? 你可能需要些技巧.md' },
+
           { text: '6A工作流  AI + Figma 产品设计自动化解决方案', link: '/vibe-coding/优秀项目和文章/6A工作流  AI + Figma 产品设计自动化解决方案.md' },
           { text: 'AI代理的上下文工程：构建Manus的经验教训', link: '/vibe-coding/优秀项目和文章/AI代理的上下文工程：构建Manus的经验教训.md' },
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
