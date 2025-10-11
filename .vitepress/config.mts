@@ -37,6 +37,12 @@ export default defineConfig({
           { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
         ]
       },
+            {
+        text: '低价服务',
+        items: [
+          { text: '欢迎', link: '/低价服务/欢迎.md' },
+        ]
+      },
       {
         text: '推广专区',
         items: [
