@@ -38,6 +38,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '推广专区',
+        items: [
+          { text: '欢迎', link: '/推广专区/欢迎.md' },
+        ]
+      },
+      {
         text: 'AI协同编程-优秀项目&&文章展示',
         items: [
           { text: 'vibe coding(氛围编程)总是产出一坨垃圾? 你可能需要些技巧', link: '/vibe-coding/优秀项目和文章/vibecoding(氛围编程)总是产出一坨垃圾你可能需要些技巧.md' },
