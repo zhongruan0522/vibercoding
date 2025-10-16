@@ -89,6 +89,7 @@ export default defineConfig({
         items: [
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
           { text: 'Codex全局AGENTS.MD指南', link: '/vibe-coding/优秀项目和文章/Codex全局AGENTS.MD指南.md' },
+          { text: 'Codex全局AGENTS.MD-88', link: '/vibe-coding/优秀项目和文章/Codex全局AGENTS-88.md' },
           { text: 'Codex杂谈', link: '/vibe-coding/优秀项目和文章/Codex杂谈.md' },
           { text: '后端Codex AGENTS', link: '/vibe-coding/优秀项目和文章/后端Codex AGENTS.md' },
           { text: '让 WSL 成功使用 Codex', link: '/vibe-coding/优秀项目和文章/让 WSL 成功使用 Codex.md' }
