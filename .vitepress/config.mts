@@ -37,18 +37,6 @@ export default defineConfig({
           { text: '疑难杂症', link: '/vibe-coding/疑难杂症' },
         ]
       },
-            {
-        text: '低价服务',
-        items: [
-          { text: '欢迎', link: '/低价服务/欢迎.md' },
-        ]
-      },
-      {
-        text: '推广专区',
-        items: [
-          { text: '欢迎', link: '/推广专区/欢迎.md' },
-        ]
-      },
       {
         text: 'AI协同编程-基础-优秀项目&&文章展示',
         items: [
@@ -56,6 +44,12 @@ export default defineConfig({
           { text: '6A工作流  AI + Figma 产品设计自动化解决方案', link: '/vibe-coding/优秀项目和文章/6A工作流  AI + Figma 产品设计自动化解决方案.md' },
           { text: 'AI代理的上下文工程：构建Manus的经验教训', link: '/vibe-coding/优秀项目和文章/AI代理的上下文工程：构建Manus的经验教训.md' },
           { text: '私域知识工程实战：如何让 AI 一次性写出高质量代码？', link: '/vibe-coding/优秀项目和文章/私域知识工程实战：如何让 AI 一次性写出高质量代码？.md' },
+        ]
+      },
+      {
+        text: 'AI协同编程-IDE&插件-优秀项目&&文章展示',
+        items: [
+          { text: '【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集', link: '/vibe-coding/优秀项目和文章/【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集.md' },
         ]
       },
       {
