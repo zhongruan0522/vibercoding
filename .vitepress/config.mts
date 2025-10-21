@@ -28,7 +28,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'AI协同编程',
+        text: '基础',
         items: [
           { text: '欢迎', link: '/vibe-coding/欢迎' },
           { text: '安装教程', link: '/vibe-coding/安装' },
@@ -38,7 +38,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI协同编程-基础-优秀项目&&文章展示',
+        text: '一些理论知识',
         items: [
           { text: 'vibe coding(氛围编程)总是产出一坨垃圾? 你可能需要些技巧', link: '/vibe-coding/优秀项目和文章/vibecoding(氛围编程)总是产出一坨垃圾你可能需要些技巧.md' },
           { text: '6A工作流  AI + Figma 产品设计自动化解决方案', link: '/vibe-coding/优秀项目和文章/6A工作流  AI + Figma 产品设计自动化解决方案.md' },
@@ -47,20 +47,21 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI协同编程-IDE&插件-优秀项目&&文章展示',
+        text: 'IDE插件',
         items: [
           { text: '【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集', link: '/vibe-coding/优秀项目和文章/【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集.md' },
         ]
       },
       {
-        text: 'AI协同编程-联动-优秀项目&&文章展示',
+        text: '多工具联动',
         items: [
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
           { text: '实验性：Claude Code + Codex 进行协作开发', link: '/vibe-coding/优秀项目和文章/实验性：Claude Code + Codex 进行协作开发.md' },
+          { text: 'Claude Code 调用 Codex：分工协作开发', link: '/vibe-coding/优秀项目和文章/Claude Code 调用 Codex：分工协作开发.md' },
         ]
       },
       {
-        text: 'AI协同编程-CC-优秀项目&&文章展示',
+        text: 'ClaudeCode',
         items: [
           { text: 'ClaudeCode小白指引贴.md', link: '/vibe-coding/优秀项目和文章/ClaudeCode小白指引贴.md' },
           { text: 'Claude Code GLM-4.5系统提示词', link: '/vibe-coding/优秀项目和文章/CC-GLM-4.5系统提示词.md' },
@@ -70,7 +71,6 @@ export default defineConfig({
           { text: 'Claude Code Spec Workflow', link: '/vibe-coding/优秀项目和文章/Claude Code Spec Workflow.md' },
           { text: 'Claude Code Sub-Agents：从手工作坊到自动化工厂', link: '/vibe-coding/优秀项目和文章/Claude Code Sub-Agents：从手工作坊到自动化工厂.md' },
           { text: 'Claude Code × Zen MCP：多AI协作编程革命', link: '/vibe-coding/优秀项目和文章/Claude Code × Zen MCP：多AI协作编程革命.md' },
-          { text: 'Claude Code 调用 Codex：分工协作开发', link: '/vibe-coding/优秀项目和文章/Claude Code 调用 Codex：分工协作开发.md' },
           { text: 'SuperClaude × Claude Code：MCP驱动的AI编程爆改指南', link: '/vibe-coding/优秀项目和文章/SuperClaude × Claude Code：MCP驱动的AI编程爆改指南.md' },
           { text: '【实事求是】CC+GLM4.5长期体验和方法分享', link: '/vibe-coding/优秀项目和文章/【实事求是】CC+GLM4.5长期体验和方法分享.md' },
           { text: '一次跑通！省钱又可靠的顾问式编码！', link: '/vibe-coding/优秀项目和文章/一次跑通！省钱又可靠的顾问式编码！.md' },
@@ -79,7 +79,7 @@ export default defineConfig({
         ]
       },
       {
-        text: 'AI协同编程-Codex-优秀项目&&文章展示',
+        text: 'Codex',
         items: [
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
           { text: 'Codex全局AGENTS.MD指南', link: '/vibe-coding/优秀项目和文章/Codex全局AGENTS.MD指南.md' },
@@ -148,7 +148,7 @@ export default defineConfig({
     },
 
     outline: {
-      level: [2,3],
+      level: [2, 3],
       label: "目录",
     },
 
