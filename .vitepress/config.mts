@@ -58,6 +58,7 @@ export default defineConfig({
           { text: 'CC&Codex系统提示词推荐', link: '/vibe-coding/优秀项目和文章/CC&Codex系统提示词推荐.md' },
           { text: '实验性：Claude Code + Codex 进行协作开发', link: '/vibe-coding/优秀项目和文章/实验性：Claude Code + Codex 进行协作开发.md' },
           { text: 'Claude Code 调用 Codex：分工协作开发', link: '/vibe-coding/优秀项目和文章/Claude Code 调用 Codex：分工协作开发.md' },
+          { text: 'Claude Code(规划、编写) + Codex(分析、审查) 进行协作开发', link: '/vibe-coding/优秀项目和文章/Claude Code(规划、编写) + Codex(分析、审查) 进行协作开发.md' },
         ]
       },
       {
