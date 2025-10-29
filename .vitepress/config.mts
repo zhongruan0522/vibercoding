@@ -50,6 +50,7 @@ export default defineConfig({
         text: 'IDE插件',
         items: [
           { text: '【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集', link: '/vibe-coding/优秀项目和文章/【Prometheus&Zeus v2.0】 RoocodeCursor + MCP + RIPER-5 优化网页+UI+软件等超强规则Rules合集.md' },
+          { text: '根据站内佬们的RIPER-5 终极协议调优的自创2.1版本（附提示词和mcp json', link: '/vibe-coding/优秀项目和文章/根据站内佬们的RIPER-5 终极协议调优的自创2.1版本（附提示词和mcp json.md' },
         ]
       },
       {
