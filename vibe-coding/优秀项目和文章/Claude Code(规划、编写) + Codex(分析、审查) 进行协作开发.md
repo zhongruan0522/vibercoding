@@ -25,7 +25,7 @@
 
 #### **CLAUDE.md**
 
-```auto
+```markdown
 # CLAUDE.md 开发准则
 
 ## 概览
@@ -457,7 +457,7 @@
 
 #### **AGENTS.md**
 
-```auto
+```markdown
 # AGENTS.md — Codex 分析AI操作手册
 
 本文件面向 Codex 分析AI，定义其作为分析者和审查者的职责边界与协作规范。
@@ -745,7 +745,7 @@
 
 **Codex MCP**
 
-```auto
+```markdown
 [mcp_servers]
 [mcp_servers.chrome-devtools]
 type = "stdio"
@@ -775,7 +775,7 @@ env = { APPDATA = "C:\\Users\\WenYu\\AppData\\Roaming", LOCALAPPDATA = "C:\\User
 
 **standard-workflow.md**
 
-```auto
+```markdown
 ---
 name: standard-workflow
 description: ClaudeCode 主AI 全流程工作流（按需调度 Codex 支持）
