@@ -88,7 +88,7 @@ export default defineConfig({
           { text: 'Codex全局AGENTS.MD-88', link: '/vibe-coding/优秀项目和文章/Codex全局AGENTS-88.md' },
           { text: 'Codex杂谈', link: '/vibe-coding/优秀项目和文章/Codex杂谈.md' },
           { text: '后端Codex AGENTS', link: '/vibe-coding/优秀项目和文章/后端Codex AGENTS.md' },
-          { text: '让 WSL 成功使用 Codex', link: '/vibe-coding/优秀项目和文章/让 WSL 成功使用 Codex.md' }
+          { text: '让 WSL 成功使用 Codex', link: '/vibe-coding/优秀项目和文章/让 WSL 成功使用 Codex.md' },
           { text: '平时使用的codex的AGENTS.md', link: '/vibe-coding/优秀项目和文章/向大家分享个自己平时使用的codex的AGENTS.md，抛砖引玉.md' }
         ]
       }
