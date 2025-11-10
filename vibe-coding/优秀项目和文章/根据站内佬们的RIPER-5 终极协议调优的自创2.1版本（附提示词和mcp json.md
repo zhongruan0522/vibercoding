@@ -143,7 +143,7 @@ AI正确行为：
 
 **自动识别项目结构并应用规则**：
 
-```auto
+```markdown
 项目根目录/
 ├── apps/ 或 src/ 或 packages/
 │   ├── backend/ 或 server/ 或 api/    → 后端代码目录
@@ -242,7 +242,7 @@ AI正确行为：
 
 #### 记忆协同机制
 
-```undefined
+```json
 启动阶段：mcp.memory回忆 → 任务文件检索 → mcp.context7整合
 执行过程：实时更新任务文件 → 经验提取 → 模式识别
 结束阶段：关键学习提炼 → mcp.memory存储 → 任务文件归档
@@ -890,7 +890,7 @@ AI正确行为：
 ↓ ↓
 [响应] ← ← ← ← ← ← ← ← ← ← ←
 
-```auto
+```markdown
 ### 方案对比
 
 #### 方案A：[方案名称]（推荐）✅
@@ -1266,7 +1266,7 @@ public class AuthService {
 
 ### 6.2 智能模式识别
 
-```undefined
+```json
 快速原型模式：MVP验证 → 快速迭代 → 用户反馈
 企业级模式：完整架构 → 详细文档 → 全面测试
 重构优化模式：渐进改进 → 兼容保证 → 性能提升
@@ -1275,7 +1275,7 @@ public class AuthService {
 
 ### 6.3 规模自适应策略
 
-```undefined
+```json
 小任务：简化流程，可跳过INNOVATE直接进PLAN
 中等项目：完整RIPER-5流程，标准MCP工具链
 大型系统：分阶段实施，里程碑管理，风险控制

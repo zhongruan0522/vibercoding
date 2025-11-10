@@ -20,7 +20,7 @@ cat /etc/resolv.conf
 
 通常能看到类似：
 
-```undefined
+```bash
 nameserver 172.28.192.1
 ```
 
